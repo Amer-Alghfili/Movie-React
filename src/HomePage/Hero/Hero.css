@@ -1,0 +1,70 @@
+.hero {
+  color: white;
+  padding: 1rem;
+}
+
+.hero__overview {
+  width: 50%;
+  padding: 2rem;
+  position: absolute;
+  bottom: 3%;
+  left: 0;
+}
+
+.hero__title {
+  font-size: 3.5rem;
+}
+
+.hero__description {
+  font-size: 1.5rem;
+}
+
+.hero__explore {
+  background-color: rgb(0, 16, 236);
+  color: rgb(243, 239, 239);
+  padding: 1rem 2rem;
+  border: 1px solid rgb(0, 16, 236);
+  font-size: 1.2rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.hero__explore:hover {
+  background-color: rgb(55, 66, 228);
+  border-color: rgb(55, 66, 228);
+}
+
+@media(max-width: 50em) {
+  .hero__overview {
+    width: 70%;
+  }
+  .hero__title {
+    font-size: 3rem;
+  }
+  
+  .hero__description {
+    font-size: 1.3rem;
+  }
+
+  .hero__explore {
+    font-size: 1rem;
+  }
+}
+
+@media(max-width: 32.5em) {
+  .hero__overview {
+    width: 100%;
+  }
+  .hero__title {
+    font-size: 2rem;
+  }
+  
+  .hero__description {
+    font-size: 1.2rem;
+  }
+
+  .hero__explore {
+    font-size: 1rem;
+  }
+}

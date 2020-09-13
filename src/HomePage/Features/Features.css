@@ -1,0 +1,20 @@
+.features {
+    /* padding-top: 18rem; */
+}
+
+.features__title {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.feature__list {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media(max-width: 50em) {
+    .feature__list {
+        flex-direction: column;
+        align-items: center;
+    }
+}

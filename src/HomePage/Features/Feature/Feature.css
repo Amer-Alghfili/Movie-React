@@ -1,0 +1,37 @@
+.feature {
+  background-color: #eee;
+  width: 28%;
+  padding: 2rem;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-shadow: 3px 3px 3px 1px #aaa;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.feature:hover {
+  box-shadow: 1px 1px 1px #aaa;
+  transform: translateY(-0.3rem);
+}
+
+.feature__imgage--container {
+  height: 5rem;
+}
+
+.feature__image {
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 50em) {
+  .feature {
+      width: 90%;
+      margin: 1rem 0;
+  }
+}
+@media (max-width: 32.5em) {
+  .feature {
+    width: 100%;
+  }
+}
